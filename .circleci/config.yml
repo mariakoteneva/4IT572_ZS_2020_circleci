@@ -1,15 +1,19 @@
-vse: &vse
-  docker:
-    - image: circleci/node:8.11.3
-
 version: 2.1
+<<<<<<< HEAD
 jobs:
   build:
     <<: *vse
     steps:
       -
+=======
+orbs:
+  node: circleci/node@3.0.0
+>>>>>>> parent of 5432d59... Update config.yml
 workflows:
-  version: 2.1
-  build:
+  node-tests:
     jobs:
+<<<<<<< HEAD
       -
+=======
+      - node/test
+>>>>>>> parent of 5432d59... Update config.yml
