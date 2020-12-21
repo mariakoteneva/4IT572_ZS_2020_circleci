@@ -1,3 +1,5 @@
+Semestralni prace 
+
 ## Installation Guide
 - Install GIT - https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 - Install Docker - https://www.docker.com/products/docker-desktop
